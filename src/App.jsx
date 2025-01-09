@@ -1,11 +1,12 @@
 
 
-import './App.css'
+import Button from "./components/button"
 
 function App() {
   return (
     <>
-      <h1 className='font-bold text-[red]'>First React App</h1>
+      <h1 className='font-bold text-blue-400 text-center'>Increase or Decrease the number</h1>
+      <Button  />
     </>
   )
 }
