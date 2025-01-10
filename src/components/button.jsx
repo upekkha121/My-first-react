@@ -1,8 +1,15 @@
-const Button = () =>{
+
+
+const Button = ({ text,  handleClick }) =>{
+
     return(
-        <button className="px-[8px] py-[2px]">
-            Click me
-        </button>
+        //react fragment
+        <>
+
+            <button onClick={handleClick} className="px-[15px] py-[4px] bg-blue-300 text-white rounded-[4px] hover:shadow-lg">
+                {text} 
+            </button>
+        </>
     )
 }
 
