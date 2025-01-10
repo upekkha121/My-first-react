@@ -25,6 +25,9 @@ function App() {
       setCount(count + 1);
   };
 
+
+  
+
   const decreaseCount = () => {
     if(count > 0){
       setCount(count - 1);
